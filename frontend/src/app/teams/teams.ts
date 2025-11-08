@@ -52,7 +52,7 @@ export interface TeamDetail {
   styleUrl: './teams.css'
 })
 export class Teams implements OnInit, OnDestroy {
-  private API = 'http://127.0.0.1:8000/teams';
+  private API = 'http://3.101.79.212:8000/teams';
   private router = inject(Router);
   private http = inject(HttpClient);
   private cdr = inject(ChangeDetectorRef);
