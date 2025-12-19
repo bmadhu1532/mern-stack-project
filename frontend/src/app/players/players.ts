@@ -57,7 +57,7 @@ export class Players implements OnInit, OnDestroy {
   currentPage: number = 1;
   pageSize: number = 20;
 
-  private API_URL = "http://3.101.79.212:8000/players";
+  private API_URL = "http://3.148.194.11:8000/players";
   private router = inject(Router);
   private http = inject(HttpClient);
   private navSub: Subscription | null = null;
