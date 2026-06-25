@@ -11,7 +11,7 @@ app.include_router(teams_router)
 
 @app.get("/")
 def root():
-    return {"Welcome to CMS backend"}
+    return {"Welcome to CMS "}
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
